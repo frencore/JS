@@ -6,11 +6,7 @@ class Singleton {
 
   constructor(nombre = "") {
     // console.log(Singleton.instancia); //undefine
-    // const a = undefined;
-    // console.log(a);
-    // console.log(!a); //opuesto de undefine es true
-    // console.log(!!a); //lo opuesto de true es false
-    //si ya existe una instancia
+    //si ya existe una instancia retorna la que ya existe (si no es undefine)
     if (!!Singleton.instancia) {
       return Singleton.instancia; // luego de ejecutar el return no sigue ejecutando las linea posteriores
     }

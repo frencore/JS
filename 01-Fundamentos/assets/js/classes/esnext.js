@@ -1,5 +1,5 @@
 class Rectangulo {
-  #area = 0;
+  #area = 0;//se crea una variable privada para que no pueda ser modificada 
   constructor(base = 0, altura = 0) {
     this.base = base;
     this.altura = altura;
